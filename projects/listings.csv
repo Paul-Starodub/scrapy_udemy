@@ -1,37 +1,253 @@
 agency,description,name,price
-MLS #: 7017148,"Maricopa, AZ 85139","13040 N Hidden Valley Rd,S16 T5s R2e","$2,275,000"
-MLS #: 6896402,"Maricopa, AZ 85139","46766 W Penaso Place,Penaso Place","$1,600,000"
-MLS #: 6994735,"Maricopa, AZ 85139","3138 S Almendra Rd,A Parcel Of Land Located In The Northeast Quarter","$1,500,000"
-MLS #: 7024037,"Maricopa, AZ 85139","233 N Pettoshas Dr,Hidden Valley Estates","$1,379,900"
-MLS #: 6985734,"Maricopa, AZ 85139","49370 W Val Vista Rd,Papago Butte Ranchos Unit 2","$989,000"
-MLS #: 7035411,"Maricopa, AZ 85139","46776 W Highway 84 --,S31 T6s R3e","$749,900"
-MLS #: 7008487,"Maricopa, AZ 85138","22274 N Daniel Dr,Rancho El Dorado Phase III Parcel 43/48","$715,000"
-MLS #: 6740557,"Maricopa, AZ 85139","44973 W Sandhill Rd,Alterra South","$695,000"
-MLS #: 7002477,"Maricopa, AZ 85138","41725 W Springtime Rd,Province","$689,000"
-MLS #: 6977690,"Maricopa, AZ 85139","5358 N Gatlin Gun Trl,S3 T6s R2e","$675,000"
-MLS #: 6980764,"Maricopa, AZ 85138","43402 W Desert Fairways Dr,Parcel 7 Rancho El Dorado","$665,000"
-MLS #: 7021873,"Maricopa, AZ 85138","42584 W Mallard Ln,Province","$649,900"
-MLS #: 7008826,"Goodyear, AZ 85338","17730 W Paseo Way,Estrella Mountain Ranch Parcel 76","$2,850,000"
-MLS #: 6855087,"Goodyear, AZ 85338","17837 W Estes Way,Estrella Mountain Ranch Parcel 73","$2,650,000"
-MLS #: 6887765,"Goodyear, AZ 85338","17929 W Estes Way,Estrella Mountain Ranch Parcel 73","$2,542,410"
-MLS #: 7027601,"Goodyear, AZ 85338","8827 S Santa Elizabeth Dr,Estrella Parcel 8","$2,300,000"
-MLS #: 6851327,"Goodyear, AZ 85338","17725 W Estes Way,Estrella Mountain Ranch Parcel 76","$2,227,500"
-MLS #: 7006059,"Goodyear, AZ 85338","16555 W Lower Buckeye Rd, ","$1,999,000"
-MLS #: 6728156,"Goodyear, AZ 85338","9233 S Krista Dr E,Estrella Parcel 9 Lot 1-92 Tr A-D","$1,645,000"
-MLS #: 6868631,"Goodyear, AZ 85338","16645 W Papago St,Sarival Gardens","$1,599,000"
-MLS #: 6883329,"Goodyear, AZ 85338","8017 S 143rd Ave, ","$1,475,000"
-MLS #: 7033813,"Goodyear, AZ 85395","16637 W Catalina Dr,Pebblecreek Phase 2 Unit 48","$1,350,000"
-MLS #: 6910513,"Goodyear, AZ 85338","17934 W Estes Way,Estrella Mountain Ranch","$1,349,000"
-MLS #: 6990585,"Goodyear, AZ 85338","18229 W Sandy Rd,Coronado Village At Estrella Mtn Ranch Parcel 7.9","$1,300,000"
-MLS #: 6934858,"Tempe, AZ 85281","140 E Rio Salado Parkway #1205,Bridgeview At Hayden Ferry Lakeside Condominium Am","$4,595,000"
-MLS #: 7020201,"Tempe, AZ 85281","140 E Rio Salado Parkway #1201,Bridgeview At Hayden Ferry Lakeside Condominium Am","$4,100,000"
-MLS #: 6926771,"Tempe, AZ 85284","1001 E Caroline Ln,Corona Vista","$2,999,000"
-MLS #: 7033481,"Tempe, AZ 85281","140 E Rio Salado Parkway #1103,Bridgeview At Hayden Ferry Lakeside Condominium Am","$2,900,000"
-MLS #: 6940341,"Tempe, AZ 85284","2173 E La Vieve Ln,Circle G Ranches 4-3 Amd","$2,399,800"
-MLS #: 6993591,"Tempe, AZ 85284","9310 S Bala Dr,Circle G Ranches 4-3 Amd","$2,325,000"
-MLS #: 7016727,"Tempe, AZ 85284","2002 E Caroline Ln,Circle G Ranches 4 Unit 2 Lot 36-79 & Tr A","$2,199,000"
-MLS #: 6987800,"Tempe, AZ 85281","820 S Farmer Ave,Farmer Goodwin","$1,975,000"
-MLS #: 7033476,"Tempe, AZ 85281","140 E Rio Salado Parkway #1101,Bridgeview At Hayden Ferry Lakeside Condominium Am","$1,677,000"
-MLS #: 7027554,"Tempe, AZ 85284","1550 E Greentree Dr,Corona Del Sol Estates","$1,600,000"
-MLS #: 7017829,"Tempe, AZ 85283","952 E Libra Dr,Westchester Estates","$1,200,000"
-MLS #: 6774897,"Tempe, AZ 85281","1004 E Tempe Dr,North Tempe","$1,188,900"
+MLS #: 7017148,"4,
+                Beds
+              ,5,F,1,1/2,
+                Baths
+              ,5,347,
+                Sq.Ft.
+              ","13040 N Hidden Valley Rd,S16 T5s R2e","$2,275,000"
+MLS #: 6896402,"1,
+                Beds
+              ,1,F,1,1/2,
+                Baths
+              ,700,
+                Sq.Ft.
+              ","46766 W Penaso Place,Penaso Place","$1,600,000"
+MLS #: 6994735,"3,
+                Beds
+              ,3,
+                Baths
+              ,1,765,
+                Sq.Ft.
+              ","3138 S Almendra Rd,A Parcel Of Land Located In The Northeast Quarter","$1,500,000"
+MLS #: 7024037,"4,
+                Beds
+              ,3,F,1,1/2,
+                Baths
+              ,3,680,
+                Sq.Ft.
+              ","233 N Pettoshas Dr,Hidden Valley Estates","$1,379,900"
+MLS #: 6985734,"3,
+                Beds
+              ,2,F,1,1/2,
+                Baths
+              ,1,830,
+                Sq.Ft.
+              ","49370 W Val Vista Rd,Papago Butte Ranchos Unit 2","$989,000"
+MLS #: 7035411,"3,
+                Beds
+              ,2,
+                Baths
+              ,1,656,
+                Sq.Ft.
+              ","46776 W Highway 84 --,S31 T6s R3e","$749,900"
+MLS #: 7008487,"3,
+                Beds
+              ,2,F,1,1/2,
+                Baths
+              ,2,556,
+                Sq.Ft.
+              ","22274 N Daniel Dr,Rancho El Dorado Phase III Parcel 43/48","$715,000"
+MLS #: 6740557,"3,
+                Beds
+              ,2,F,1,1/2,
+                Baths
+              ,1,844,
+                Sq.Ft.
+              ","44973 W Sandhill Rd,Alterra South","$695,000"
+MLS #: 7002477,"3,
+                Beds
+              ,3,
+                Baths
+              ,2,606,
+                Sq.Ft.
+              ","41725 W Springtime Rd,Province","$689,000"
+MLS #: 6977690,"3,
+                Beds
+              ,2,F,1,1/2,
+                Baths
+              ,2,603,
+                Sq.Ft.
+              ","5358 N Gatlin Gun Trl,S3 T6s R2e","$675,000"
+MLS #: 6980764,"4,
+                Beds
+              ,3,
+                Baths
+              ,3,667,
+                Sq.Ft.
+              ","43402 W Desert Fairways Dr,Parcel 7 Rancho El Dorado","$665,000"
+MLS #: 7021873,"3,
+                Beds
+              ,3,F,1,1/2,
+                Baths
+              ,3,102,
+                Sq.Ft.
+              ","42584 W Mallard Ln,Province","$649,900"
+MLS #: 7008826,"5,
+                Beds
+              ,4,F,1,1/2,
+                Baths
+              ,5,796,
+                Sq.Ft.
+              ","17730 W Paseo Way,Estrella Mountain Ranch Parcel 76","$2,850,000"
+MLS #: 6855087,"5,
+                Beds
+              ,5,F,1,1/2,
+                Baths
+              ,3,624,
+                Sq.Ft.
+              ","17837 W Estes Way,Estrella Mountain Ranch Parcel 73","$2,650,000"
+MLS #: 6887765,"4,
+                Beds
+              ,4,
+                Baths
+              ,4,154,
+                Sq.Ft.
+              ","17929 W Estes Way,Estrella Mountain Ranch Parcel 73","$2,542,410"
+MLS #: 7027601,"5,
+                Beds
+              ,5,
+                Baths
+              ,4,229,
+                Sq.Ft.
+              ","8827 S Santa Elizabeth Dr,Estrella Parcel 8","$2,300,000"
+MLS #: 6851327,"4,
+                Beds
+              ,4,F,1,1/2,
+                Baths
+              ,4,050,
+                Sq.Ft.
+              ","17725 W Estes Way,Estrella Mountain Ranch Parcel 76","$2,227,500"
+MLS #: 7006059,"4,
+                Beds
+              ,4,F,1,1/2,
+                Baths
+              ,2,500,
+                Sq.Ft.
+              ","16555 W Lower Buckeye Rd, ","$1,999,000"
+MLS #: 6728156,"4,
+                Beds
+              ,4,F,1,1/2,
+                Baths
+              ,4,759,
+                Sq.Ft.
+              ","9233 S Krista Dr E,Estrella Parcel 9 Lot 1-92 Tr A-D","$1,645,000"
+MLS #: 6868631,"3,
+                Beds
+              ,3,F,1,1/2,
+                Baths
+              ,3,247,
+                Sq.Ft.
+              ","16645 W Papago St,Sarival Gardens","$1,599,000"
+MLS #: 6883329,"5,
+                Beds
+              ,4,F,1,1/2,
+                Baths
+              ,4,157,
+                Sq.Ft.
+              ","8017 S 143rd Ave, ","$1,475,000"
+MLS #: 7033813,"3,
+                Beds
+              ,3,F,1,1/2,
+                Baths
+              ,2,826,
+                Sq.Ft.
+              ","16637 W Catalina Dr,Pebblecreek Phase 2 Unit 48","$1,350,000"
+MLS #: 6910513,"3,
+                Beds
+              ,3,
+                Baths
+              ,3,000,
+                Sq.Ft.
+              ","17934 W Estes Way,Estrella Mountain Ranch","$1,349,000"
+MLS #: 6990585,"4,
+                Beds
+              ,4,
+                Baths
+              ,4,395,
+                Sq.Ft.
+              ","18229 W Sandy Rd,Coronado Village At Estrella Mtn Ranch Parcel 7.9","$1,300,000"
+MLS #: 6934858,"3,
+                Beds
+              ,3,F,1,1/2,
+                Baths
+              ,5,186,
+                Sq.Ft.
+              ","140 E Rio Salado Parkway #1205,Bridgeview At Hayden Ferry Lakeside Condominium Am","$4,595,000"
+MLS #: 7020201,"4,
+                Beds
+              ,4,F,1,1/2,
+                Baths
+              ,3,783,
+                Sq.Ft.
+              ","140 E Rio Salado Parkway #1201,Bridgeview At Hayden Ferry Lakeside Condominium Am","$4,100,000"
+MLS #: 6926771,"6,
+                Beds
+              ,7,
+                Baths
+              ,9,031,
+                Sq.Ft.
+              ","1001 E Caroline Ln,Corona Vista","$2,999,000"
+MLS #: 7033481,"3,
+                Beds
+              ,2,F,1,1/2,
+                Baths
+              ,2,945,
+                Sq.Ft.
+              ","140 E Rio Salado Parkway #1103,Bridgeview At Hayden Ferry Lakeside Condominium Am","$2,900,000"
+MLS #: 6940341,"5,
+                Beds
+              ,4,F,1,1/2,
+                Baths
+              ,5,396,
+                Sq.Ft.
+              ","2173 E La Vieve Ln,Circle G Ranches 4-3 Amd","$2,399,800"
+MLS #: 6993591,"5,
+                Beds
+              ,3,F,1,1/2,
+                Baths
+              ,4,817,
+                Sq.Ft.
+              ","9310 S Bala Dr,Circle G Ranches 4-3 Amd","$2,325,000"
+MLS #: 7016727,"5,
+                Beds
+              ,3,
+                Baths
+              ,4,400,
+                Sq.Ft.
+              ","2002 E Caroline Ln,Circle G Ranches 4 Unit 2 Lot 36-79 & Tr A","$2,199,000"
+MLS #: 6987800,"4,
+                Beds
+              ,3,
+                Baths
+              ,3,764,
+                Sq.Ft.
+              ","820 S Farmer Ave,Farmer Goodwin","$1,975,000"
+MLS #: 7033476,"2,
+                Beds
+              ,2,
+                Baths
+              ,1,863,
+                Sq.Ft.
+              ","140 E Rio Salado Parkway #1101,Bridgeview At Hayden Ferry Lakeside Condominium Am","$1,677,000"
+MLS #: 7027554,"4,
+                Beds
+              ,2,F,1,1/2,
+                Baths
+              ,2,781,
+                Sq.Ft.
+              ","1550 E Greentree Dr,Corona Del Sol Estates","$1,600,000"
+MLS #: 7017829,"4,
+                Beds
+              ,3,F,1,1/2,
+                Baths
+              ,3,404,
+                Sq.Ft.
+              ","952 E Libra Dr,Westchester Estates","$1,200,000"
+MLS #: 6774897,"6,
+                Beds
+              ,4,F,2,1/2,
+                Baths
+              ,4,186,
+                Sq.Ft.
+              ","1004 E Tempe Dr,North Tempe","$1,188,900"
