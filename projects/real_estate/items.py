@@ -11,9 +11,16 @@ def description_in(description):
     return description.strip()
 
 
+def description_out(description):
+    labels = description[0:3]
+    values = description[3:]
+    output = {labels[0]: values[0], labels[1]: values[1:-1], labels[2]: values[-1]}
+    return output
+
+
 class RealEstateItem(scrapy.Item):
     # define the fields for your item here like:
     name = scrapy.Field()
-    description = scrapy.Field(input_processor=MapCompose(description_in))
+    description = scrapy.Field(input_processor=MapCompose(description_in), output_processor=description_out)
     price = scrapy.Field()
     agency = scrapy.Field()
