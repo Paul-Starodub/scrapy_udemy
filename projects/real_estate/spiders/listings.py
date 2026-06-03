@@ -31,6 +31,9 @@ class ListingsSpider(scrapy.Spider):
             item.add_xpath("price", './/div[@class="si-listing__photo-price"]/span/text()')
             item.add_xpath("agency", './/div[@class="si-listing__footer"]/div/text()')
             yield item.load_item()
+            next_page = response.xpath('//a[@class="js-page-link"]/@href').get()
+            if next_page:
+                yield response.follow(next_page, callback=self.parse)
 
             # item = RealEstateItem()
             # item["name"] = listing.xpath(
