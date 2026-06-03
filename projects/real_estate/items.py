@@ -14,7 +14,11 @@ def description_in(description):
 def description_out(description):
     labels = description[0:3]
     values = description[3:]
-    output = {labels[0]: values[0], labels[1]: values[1:-1], labels[2]: values[-1]}
+    output = {
+        labels[0]: "".join(values[0]),
+        labels[1]: "".join(values[1:-1]),
+        labels[2]: "".join(values[-1]),
+    }
     return output
 
 
