@@ -1,17 +1,63 @@
 import scrapy
 
+from scrapy.spiders import CrawlSpider, Rule
 from real_estate.items import RealEstateItem
 from scrapy.loader import ItemLoader
+from scrapy.linkextractors import LinkExtractor
 
 
-class ListingsSpider(scrapy.Spider):
+# class ListingsSpider(scrapy.Spider):
+#     name = "listings"
+#     allowed_domains = ["arizonarealestate.com"]
+#     start_urls = [
+#         "https://www.arizonarealestate.com/maricopa/",
+#         "https://www.arizonarealestate.com/goodyear/",
+#         "https://www.arizonarealestate.com/tempe/",
+#     ]
+#
+#     def parse(self, response):
+#         gallery = response.xpath('//div[@class="si-listings-column"]')
+#         for listing in gallery:
+#             item = ItemLoader(item=RealEstateItem(), response=response, selector=listing)
+#             item.add_xpath("name", ".//div[@class='si-listing__title-main']/text()")
+#             item.add_xpath(
+#                 "name", ".//div[@class='si-listing__neighborhood']/span[@class='si-listing__neighborhood-place']/text()"
+#             )
+#             item.add_xpath(
+#                 "description", './/div[@class="si-listing__info"]//div[@class="si-listing__info-label"]/text()'
+#             )
+#             item.add_xpath(
+#                 "description",
+#                 './/div[@class="si-listing__info"]//div[@class="si-listing__info-value"]/descendant::*/text()',
+#             )
+#             item.add_xpath("price", './/div[@class="si-listing__photo-price"]/span/text()')
+#             item.add_xpath("agency", './/div[@class="si-listing__footer"]/div/text()')
+#             yield item.load_item()
+#             next_page = response.xpath('//a[@class="js-page-link"]/@href').get()
+#             if next_page:
+#                 yield response.follow(next_page, callback=self.parse)
+
+# item = RealEstateItem()
+# item["name"] = listing.xpath(
+#     './/div[@class="si-listing__title-main"]/text() | .//div[@class="si-listing__neighborhood"]/span[@class="si-listing__neighborhood-place"]/text()'
+# ).getall()
+# item["description"] = listing.xpath(
+#     './/div[@class="si-listing__info"]//div[@class="si-listing__info-label"]/text() | .//div[@class="si-listing__info"]//div[@class="si-listing__info-value"]/descendant::*/text()'
+# ).getall()
+# item["description"] = ["".join(x.split()) for x in item["description"]]
+# item["price"] = listing.xpath('.//div[@class="si-listing__photo-price"]/span/text()').get()
+# item["agency"] = listing.xpath('.//div[@class="si-listing__footer"]/div/text()').get()
+# yield item
+
+
+class ListingsSpider(CrawlSpider):
     name = "listings"
     allowed_domains = ["arizonarealestate.com"]
-    start_urls = [
-        "https://www.arizonarealestate.com/maricopa/",
-        "https://www.arizonarealestate.com/goodyear/",
-        "https://www.arizonarealestate.com/tempe/",
-    ]
+    start_urls = ["https://www.arizonarealestate.com"]
+    rules = (
+        # Rule(LinkExtractor(restrict_xpaths=("//section[@class='section-city-list']",)), callback="parse", follow=True),
+        Rule(LinkExtractor(restrict_xpaths=("//section[@class='communities link-effect dark']",)), callback="parse", follow=True),
+    )
 
     def parse(self, response):
         gallery = response.xpath('//div[@class="si-listings-column"]')
@@ -34,15 +80,3 @@ class ListingsSpider(scrapy.Spider):
             next_page = response.xpath('//a[@class="js-page-link"]/@href').get()
             if next_page:
                 yield response.follow(next_page, callback=self.parse)
-
-            # item = RealEstateItem()
-            # item["name"] = listing.xpath(
-            #     './/div[@class="si-listing__title-main"]/text() | .//div[@class="si-listing__neighborhood"]/span[@class="si-listing__neighborhood-place"]/text()'
-            # ).getall()
-            # item["description"] = listing.xpath(
-            #     './/div[@class="si-listing__info"]//div[@class="si-listing__info-label"]/text() | .//div[@class="si-listing__info"]//div[@class="si-listing__info-value"]/descendant::*/text()'
-            # ).getall()
-            # item["description"] = ["".join(x.split()) for x in item["description"]]
-            # item["price"] = listing.xpath('.//div[@class="si-listing__photo-price"]/span/text()').get()
-            # item["agency"] = listing.xpath('.//div[@class="si-listing__footer"]/div/text()').get()
-            # yield item
