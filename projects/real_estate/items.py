@@ -4,7 +4,7 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-from itemloaders.processors import MapCompose
+from itemloaders.processors import MapCompose, Join
 
 
 def description_in(description):
@@ -24,7 +24,7 @@ def description_out(description):
 
 class RealEstateItem(scrapy.Item):
     # define the fields for your item here like:
-    name = scrapy.Field()
+    name = scrapy.Field(output_processor=Join())
     description = scrapy.Field(input_processor=MapCompose(description_in), output_processor=description_out)
-    price = scrapy.Field()
-    agency = scrapy.Field()
+    price = scrapy.Field(output_processor=Join())
+    agency = scrapy.Field(output_processor=Join())
