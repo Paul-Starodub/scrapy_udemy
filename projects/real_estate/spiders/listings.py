@@ -22,6 +22,7 @@ class ListingsSpider(scrapy.Spider):
             item["description"] = listing.xpath(
                 './/div[@class="si-listing__info"]//div[@class="si-listing__info-label"]/text() | .//div[@class="si-listing__info"]//div[@class="si-listing__info-value"]/descendant::*/text()'
             ).getall()
+            item["description"] = ["".join(x.split()) for x in item["description"]]
             item["price"] = listing.xpath('.//div[@class="si-listing__photo-price"]/span/text()').get()
             item["agency"] = listing.xpath('.//div[@class="si-listing__footer"]/div/text()').get()
             yield item
